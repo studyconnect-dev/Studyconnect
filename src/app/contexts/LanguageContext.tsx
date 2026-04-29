@@ -37,6 +37,20 @@ const translations: Translations = {
   "login.noAccount": { fr: "Pas encore de compte ?", en: "Don't have an account?" },
   "login.register": { fr: "Rejoignez-nous", en: "Join us" },
 
+  // FAQ
+  "faq.title": { fr: "Foire Aux Questions", en: "Frequently Asked Questions" },
+  "faq.subtitle": { fr: "Tout ce que vous devez savoir sur StudyConnect", en: "Everything you need to know about StudyConnect" },
+  "faq.q1": { fr: "Comment rejoindre un groupe de révision ?", en: "How do I join a study group?" },
+  "faq.a1": { fr: "Recherchez par module et ville, puis cliquez sur 'Rejoindre' sur la carte du groupe.", en: "Search by module and city, then click 'Join' on the group card." },
+  "faq.q2": { fr: "Est-ce que StudyConnect est gratuit pour tous les étudiants ?", en: "Is StudyConnect free for all students?" },
+  "faq.a2": { fr: "Oui, la plateforme est entièrement gratuite pour faciliter l'entraide académique.", en: "Yes, the platform is completely free to facilitate academic mutual aid." },
+  "faq.q3": { fr: "Puis-je créer mon propre groupe si je ne trouve pas de module ?", en: "Can I create my own group if I can't find a module?" },
+  "faq.a3": { fr: "Absolument ! Utilisez le bouton 'Créer un groupe' dans la barre de navigation.", en: "Absolutely! Use the 'Create a group' button in the navigation bar." },
+  "faq.q4": { fr: "Comment fonctionne le chat intégré ?", en: "How does the integrated chat work?" },
+  "faq.a4": { fr: "Une fois le groupe rejoint, vous accédez à un espace de discussion en temps réel pour fixer vos rendez-vous.", en: "Once you join the group, you access a real-time discussion space to schedule your meetings." },
+  "faq.q5": { fr: "Les groupes sont-ils en présentiel ou en ligne ?", en: "Are the groups in-person or online?" },
+  "faq.a5": { fr: "Les deux ! Chaque groupe précise son mode de rencontre sur sa carte de présentation.", en: "Both! Each group specifies its meeting mode on its presentation card." },
+
   // Navbar
   "nav.myGroups": { fr: "Mes Groupes", en: "My Groups" },
   "nav.profile": { fr: "Profil", en: "Profile" },

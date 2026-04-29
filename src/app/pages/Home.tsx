@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { Navbar } from "../components/Navbar";
+import { FAQ } from "../components/FAQ";
 import { Search } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 
@@ -92,6 +93,9 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <FAQ />
     </div>
   );
 }
