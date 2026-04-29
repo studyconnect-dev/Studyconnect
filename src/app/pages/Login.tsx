@@ -29,9 +29,6 @@ export function Login() {
                 StudyConnect
               </span>
             </div>
-            <h1 className="text-2xl" style={{ fontWeight: 600, color: '#003366' }}>
-              {t("login.title")}
-            </h1>
           </div>
 
           {/* Form */}
