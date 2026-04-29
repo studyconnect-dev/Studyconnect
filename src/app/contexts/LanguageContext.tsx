@@ -10,6 +10,18 @@ interface Translations {
 }
 
 const translations: Translations = {
+  // Login
+  "login.title": { fr: "Ravi de vous revoir", en: "Welcome back" },
+  "login.email": { fr: "Email", en: "Email" },
+  "login.emailPlaceholder": { fr: "votre@email.com", en: "your@email.com" },
+  "login.password": { fr: "Mot de passe", en: "Password" },
+  "login.passwordPlaceholder": { fr: "Entrez votre mot de passe", en: "Enter your password" },
+  "login.rememberMe": { fr: "Se souvenir de moi", en: "Remember me" },
+  "login.forgotPassword": { fr: "Mot de passe oublié ?", en: "Forgot password?" },
+  "login.submit": { fr: "Se connecter", en: "Sign in" },
+  "login.noAccount": { fr: "Pas encore de compte ?", en: "Don't have an account?" },
+  "login.register": { fr: "Rejoignez-nous", en: "Join us" },
+
   // Navbar
   "nav.myGroups": { fr: "Mes Groupes", en: "My Groups" },
   "nav.profile": { fr: "Profil", en: "Profile" },
