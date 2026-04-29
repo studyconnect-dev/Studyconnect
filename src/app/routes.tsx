@@ -8,11 +8,11 @@ import { Register } from "./pages/Register";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Login,
+    Component: Register,
   },
   {
-    path: "/register",
-    Component: Register,
+    path: "/login",
+    Component: Login,
   },
   {
     path: "/home",

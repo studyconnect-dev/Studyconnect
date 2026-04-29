@@ -20,42 +20,42 @@ export function Register() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Navigate to home page after registration
-    navigate("/home");
+    // Navigate to login page after registration
+    navigate("/login");
   };
 
   return (
-    <div className="min-h-screen bg-secondary flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-secondary flex items-center justify-center px-4 py-6 sm:py-8">
       <div className="w-full max-w-md">
         <div 
-          className="bg-white p-8"
+          className="bg-white p-6 sm:p-8"
           style={{ 
             borderRadius: '8px',
             boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)'
           }}
         >
           {/* Logo */}
-          <div className="text-center mb-6">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <GraduationCap className="w-10 h-10" style={{ color: '#003366' }} />
-              <span className="text-2xl" style={{ fontWeight: 600, color: '#003366' }}>
+          <div className="text-center mb-4 sm:mb-6">
+            <div className="flex items-center justify-center gap-2 mb-3 sm:mb-4">
+              <GraduationCap className="w-8 h-8 sm:w-10 sm:h-10" style={{ color: '#003366' }} />
+              <span className="text-xl sm:text-2xl" style={{ fontWeight: 600, color: '#003366' }}>
                 StudyConnect
               </span>
             </div>
           </div>
 
           {/* Title and Welcome Text */}
-          <div className="text-center mb-6">
-            <h1 className="text-2xl mb-2" style={{ fontWeight: 600, color: '#003366' }}>
+          <div className="text-center mb-5 sm:mb-6">
+            <h1 className="text-xl sm:text-2xl mb-2" style={{ fontWeight: 600, color: '#003366' }}>
               {t("register.title")}
             </h1>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground px-2 sm:px-0">
               {t("register.subtitle")}
             </p>
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
             {/* Full Name Field */}
             <div>
               <label 
@@ -179,7 +179,7 @@ export function Register() {
             <p className="text-sm text-muted-foreground">
               {t("register.hasAccount")}{" "}
               <Link 
-                to="/" 
+                to="/login" 
                 className="hover:underline transition-colors"
                 style={{ color: '#003366', fontWeight: 500 }}
               >

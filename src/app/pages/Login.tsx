@@ -18,21 +18,21 @@ export function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-secondary flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-secondary flex items-center justify-center px-4 py-6 sm:py-8">
       <div className="w-full max-w-md">
-        <div className="bg-white rounded-lg shadow-lg p-8" style={{ borderRadius: '8px' }}>
+        <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8" style={{ borderRadius: '8px' }}>
           {/* Logo and Title */}
-          <div className="text-center mb-8">
+          <div className="text-center mb-6 sm:mb-8">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <GraduationCap className="w-10 h-10" style={{ color: '#003366' }} />
-              <span className="text-2xl" style={{ fontWeight: 600, color: '#003366' }}>
+              <GraduationCap className="w-8 h-8 sm:w-10 sm:h-10" style={{ color: '#003366' }} />
+              <span className="text-xl sm:text-2xl" style={{ fontWeight: 600, color: '#003366' }}>
                 StudyConnect
               </span>
             </div>
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
             {/* Email Field */}
             <div>
               <label 
@@ -86,7 +86,7 @@ export function Login() {
             </div>
 
             {/* Remember Me & Forgot Password */}
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-0">
               <label className="flex items-center gap-2 cursor-pointer">
                 <input
                   type="checkbox"
@@ -127,7 +127,7 @@ export function Login() {
             <p className="text-sm text-muted-foreground">
               {t("login.noAccount")}{" "}
               <Link 
-                to="/register" 
+                to="/" 
                 className="hover:underline transition-colors"
                 style={{ color: '#003366', fontWeight: 500 }}
               >
