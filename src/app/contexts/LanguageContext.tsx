@@ -10,6 +10,21 @@ interface Translations {
 }
 
 const translations: Translations = {
+  // Register
+  "register.title": { fr: "Créer un profil étudiant", en: "Create a student profile" },
+  "register.subtitle": { fr: "Rejoignez la communauté StudyConnect et trouvez vos partenaires de révision.", en: "Join the StudyConnect community and find your study partners." },
+  "register.fullName": { fr: "Nom Complet", en: "Full Name" },
+  "register.fullNamePlaceholder": { fr: "Entrez votre nom complet", en: "Enter your full name" },
+  "register.email": { fr: "Email Académique", en: "Academic Email" },
+  "register.emailPlaceholder": { fr: "votre.nom@universite.ma", en: "your.name@university.ma" },
+  "register.city": { fr: "Ville", en: "City" },
+  "register.cityPlaceholder": { fr: "Sélectionnez votre ville", en: "Select your city" },
+  "register.password": { fr: "Mot de passe", en: "Password" },
+  "register.passwordPlaceholder": { fr: "Créez un mot de passe sécurisé", en: "Create a secure password" },
+  "register.submit": { fr: "S'inscrire gratuitement", en: "Sign up for free" },
+  "register.hasAccount": { fr: "Déjà membre ?", en: "Already a member?" },
+  "register.login": { fr: "Connectez-vous ici", en: "Sign in here" },
+
   // Login
   "login.title": { fr: "Ravi de vous revoir", en: "Welcome back" },
   "login.email": { fr: "Email", en: "Email" },
