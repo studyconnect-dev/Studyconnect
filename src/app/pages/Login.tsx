@@ -14,7 +14,7 @@ export function Login() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Navigate to home page after login
-    navigate("/");
+    navigate("/home");
   };
 
   return (
